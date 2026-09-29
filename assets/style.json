@@ -1,0 +1,16 @@
+{
+  "canvas_px": [1280, 720],
+  "canvas_emu": [12192000, 6858000],
+  "background": "FFFFFF",
+  "font": "Arial",
+  "colors": {"title": "800020", "body": "202124", "inline_keyword": "5A8298", "footer": "5F6368"},
+  "title": {"x": 64, "y": 48.5, "w": 1152, "h": 88, "font_pt": 33, "bold": true},
+  "body_font_pt": 21.75,
+  "major_label_font_pt": 25.5,
+  "footer": {"x": 64, "y": 672, "w": 1152, "h": 30, "font_pt": 10.5, "align": "right", "lines": 1},
+  "content_y": [165, 550],
+  "subtitle": false,
+  "page_number": false,
+  "bottom_takeaway_bar": false,
+  "figure_colors": "preserve original"
+}

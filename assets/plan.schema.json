@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Medical PBL working plan",
+  "type": "object",
+  "required": ["question", "timepoint", "case_facts", "sources", "slides"],
+  "properties": {
+    "question": {"type": "string"},
+    "timepoint": {"type": "string"},
+    "case_facts": {"type": "array", "items": {"type": "object", "required": ["fact", "status", "locator"], "properties": {"fact": {"type": "string"}, "status": {"enum": ["present", "explicitly_absent", "unreported", "inference", "later_evidence"]}, "locator": {"type": "string"}}}},
+    "sources": {"type": "array", "items": {"type": "object", "required": ["id", "title", "access", "apa", "use"], "properties": {"id": {"type": "string"}, "title": {"type": "string"}, "access": {"enum": ["full_text", "abstract_only", "unavailable", "case_handout"]}, "apa": {"type": "string"}, "use": {"type": "string"}, "doi": {"type": "string"}, "pmid": {"type": "string"}, "path": {"type": "string"}, "failed_routes": {"type": "array"}}}},
+    "slides": {"type": "array", "items": {"type": "object", "required": ["title", "reasoning_move", "source_ids", "notes"], "properties": {"title": {"type": "string"}, "reasoning_move": {"type": "string"}, "source_ids": {"type": "array", "items": {"type": "string"}}, "figure": {"type": "object", "properties": {"source_id": {"type": "string"}, "number_panel": {"type": "string"}, "page_index": {"type": "integer", "minimum": 0}, "path": {"type": "string"}, "caption": {"type": "string"}}}, "test_decision": {"type": "object", "required": ["why", "expected", "positive", "negative", "limitations", "next_action"], "properties": {"why": {"type": "string"}, "expected": {"type": "string"}, "positive": {"type": "string"}, "negative": {"type": "string"}, "limitations": {"type": "string"}, "next_action": {"type": "string"}}}, "footer": {"type": "string"}, "notes": {"type": "string"}}}}
+  }
+}

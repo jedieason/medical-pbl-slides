@@ -1,0 +1,6 @@
+interface:
+  display_name: "醫學小組討論簡報"
+  short_description: "從題目與單元 PDF 建立文獻圖像、逐步臨床推理及完整備課 notes 簡報"
+  default_prompt: "Use $medical-pbl-slides to turn my question and unit PDF into a literature-backed medical student presentation with detailed speaker notes."
+policy:
+  allow_implicit_invocation: true
