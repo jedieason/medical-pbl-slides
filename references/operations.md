@@ -27,8 +27,9 @@ Do not append hidden full bibliography text to notes when the user wants visible
 2. Source: every selected paper has a verified local PDF in `papers/` or an explicit unavailable status and attempted routes. Downloaded PDFs match their identity, version and recorded source URL; download and reading statuses are distinct. Check exact figure/panel/page mapping, complete visible references, and no altered scientific information or mislabeled case images. Do not infer institutional/VPN access from download success.
 3. Visual: render all slides; inspect a montage for overall flow and every slide at full size. No clipping, tiny paper text, extra subheading, footer wrapping, old green bar or irrelevant highlighting. Reuse exact scientific colors.
 4. Package: run available integrity/layout/import checks. `audit_deck.py` is an additional narrow content check, not a replacement. Unsupported mandatory validator options should be resolved through current runtime docs.
-5. Notes: match by slide relationship/title, compare complete saved notes against authored text. Check background explanations and transitions, not only length.
-6. Preserve user data: verify unchanged artwork/media for a notes-only operation. Deliver to a new versioned filename; finalizers may refuse overwriting existing files, which is expected.
+5. Exam questions, when included: verify high concept overlap, placement immediately after the corresponding teaching, exact wording/options and source label, official final answer, minimal answer explanation in notes, and visible source links. Do not count exam papers as research papers.
+6. Notes: match by slide relationship/title, compare complete saved notes against authored text. Check quick scanning, speaking order, essential causal/interpretation cues and useful transitions; remove long articles and irrelevant detail.
+7. Preserve user data: verify unchanged artwork/media for a notes-only operation. Deliver to a new versioned filename; finalizers may refuse overwriting existing files, which is expected.
 
 ## Fast iteration
 

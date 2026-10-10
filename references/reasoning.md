@@ -12,6 +12,8 @@ For example, in the source case (an illustration, not a reusable medical answer)
 
 ## A paced narrative
 
+The questions below are a planning scaffold for the teaching sequence, not ready-made slide titles. Translate each into a title naming the actual mechanism, finding, test or decision taught on that slide, following presentation.md.
+
 A useful shape, adapted to the question rather than enforced as a fixed slide count:
 1. What is the presenting problem at this time point?
 2. What do we actually know about this host and timeline?
@@ -29,11 +31,13 @@ A useful shape, adapted to the question rather than enforced as a fixed slide co
 14. If the unit provides later events, explicitly move the time point and update the model.
 15. Answer the assigned question, followed by visible full references.
 
+Keep the deck as a connected explanation of the assigned question rather than a collection of related facts. For each slide, identify what it adds to the previous slide and why the audience needs it before the next. Add a brief causal or question-to-answer bridge where needed; do not force a dramatic story or invent case events. Delete or merge tangents, repeated background, and source summaries whose removal would not change the audience's understanding or the final answer. Choose only the parts of the scaffold above that serve this topic.
+
 One slide should not jump from “drug given” to “immune injury confirmed”. Avoid algorithm-first lectures or exhaustive lists. If a diagram requires several new concepts, crop one intact branch at a time and introduce its terms. Repeat a source image only if it helps revisit the same decision; never as visual filler.
 
 ## The test-decision contract
 
-Before recommending any test, fill these fields in the plan and explain them in notes:
+Before recommending any test, fill these fields in the evidence plan; retain the relevant interpretation and decision cues in notes:
 - Clinical uncertainty and why this host makes it relevant.
 - Test/specimen/timing, including prior treatment that affects yield.
 - Predicted finding if the candidate cause is correct.
@@ -43,46 +47,21 @@ Before recommending any test, fill these fields in the plan and explain them in 
 
 Do not turn a negative culture into “no infection”, a compatible CT into proof, a biomarker into a disease-specific test, or steroid response into etiologic confirmation. Do not order the same expansive panel for every host. Distinguish diagnostic confidence, urgency and treatment choice. These are general reasoning cautions, not substitutes for disease-specific guidelines.
 
-## Notes are a preclinical student's reading article
+## Presenter notes: minimal plain-text cues
 
-The reader has not entered clinical rotations. Do not assume familiarity with clinical shorthand, test interpretation, imaging patterns, disease grading or management implications. The notes are the student's primary teaching text for learning this topic, not a presentation outline, a list of talking points or a script that tells the speaker what to explain. Each slide contributes a substantial connected section of a coherent chapter. A reader who carefully reads the notes in order should understand how the conclusion was reached without having to supply missing clinical knowledge.
+Notes are for scanning during a live report, not for reading a textbook or a full script. Use Traditional Chinese with English medical terms. Write short plain-text lines separated by line breaks; no Markdown headings, bold markers, tables, nested lists, or two-part sections. Do not append a detailed reading article. Aim for roughly 3–5 short lines on a typical slide, adjusting only when the actual content requires it; there is no mandatory count or character quota.
 
-### Two-part delivery: presentation cues first, reading article second
+Keep the lines in speaking order. Include the slide's main point, the essential “because → therefore” connection, what to point out in the figure or test, and what it means for this case. Include a caveat or next-slide transition only when needed. Use natural short phrases that cue the explanation, not isolated keywords or long sentences to read aloud. Explain an unfamiliar term briefly at first use if it is needed for understanding.
 
-Use developed prose paragraphs. Short headings may aid navigation, but do not fill each heading with a one-sentence summary. Begin with the unresolved problem carried from the previous slide. Explain the prerequisites, develop the causal reasoning, apply evidence to the patient, examine competing interpretations, and end with what remains uncertain and why the next slide follows. The delivered notes must begin with **第一部分｜Present 重點小抄**: 3–5 short cues covering the point, decision/interpretation, caution and transition. Follow with **第二部分｜詳細邏輯流閱讀文章**, containing the complete prose article. Draft the article deeply, then derive the cues, but display the cues first for quick consultation during presentation. The cues cannot substitute for or shorten the article. The speaker need not read all of the article aloud.
+For a test, retain why it is relevant, what a positive or negative result changes, and the key limitation. For a figure, cue the feature to point at and what it supports; preserve any limitation that would otherwise make the claim misleading. Keep bibliographic details in the visible reference section, not in the scanning notes. Research and the evidence plan must still support these cues; brevity does not justify skipping verification or overstating certainty.
 
-Remove the former roughly 600-character-per-slide calibration: the user explicitly found that level insufficient. There is no upper brevity target. Depth is determined by what an inexperienced reader needs to independently reconstruct the inference, not by slide text length. Explain unfamiliar concepts at first use and briefly reconnect to them later. Do not inflate length with repetition or irrelevant textbook detail.
+Illustrative note style (not a medical claim to reuse without source checking):
+陰性培養：這份檢體未培養出病原，不能直接排除感染
+先前治療／採樣位置 → 可能降低檢出率
+若仍高度懷疑 → 評估更合適的採樣方式
+下一頁：哪些證據能區分剩下的原因
 
-### Explain every bridge in the reasoning
-
-For each important claim, develop the relevant chain in ordinary language:
-1. What do we observe, and what is known versus missing?
-2. What anatomy, physiology, immunology or pathology is needed to understand this observation? Explain the normal process before the abnormal one when necessary.
-3. How could the proposed cause produce the observation? Describe intermediate steps rather than merely naming a mechanism.
-4. Why is this cause more or less plausible in this host? Separate population evidence from this patient's actual findings.
-5. If that explanation were true, what else would we expect? Which competing explanation predicts the same thing, and which observation could distinguish them?
-6. How does the actual or hypothetical result change our judgment? Why does it change it by that amount, and what does it fail to establish?
-7. What would we do next, and why would that action resolve a remaining uncertainty or alter care?
-
-This chain is a drafting scaffold, not a numbered template that must appear in every note. Turn it into connected exposition. Explicitly use causal connections such as 因為、因此、然而、只有在……時 and explain their premises. Do not hide a leap behind 所以, suggests, consistent with or a technical acronym. “Clinical judgment” must be unpacked into the evidence being weighed. These are educational clinical rationales, not a transcript of the model's private deliberation or tool calls.
-
-### Tests must be taught, not just named
-
-Explain what a test physically samples or measures and how it works at a useful conceptual level. Define terms such as sensitivity, specificity, pretest probability, colonization and sampling error when needed. Then explain why this patient's uncertainty calls for that test, what result is predicted under each hypothesis, positive and negative interpretations, imperfect sampling/detection, and the resulting next action. Explain why a test can provide useful information without being confirmatory. Do not fabricate sensitivity numbers or unsupported thresholds.
-
-A weak note says: “Negative cultures do not exclude infection; consider BAL.” A sufficient article explains that culture asks whether organisms capable of growing under the selected conditions were recovered from the submitted sample. Failure to recover them can reflect no relevant infection, an unrepresentative sample, prior treatment or a pathogen outside the method's scope. It then connects the patient's suspected disease location and previous treatment to those possibilities, explains what a lower-airway sample could add, and states when the expected information justifies its risks. It also explains why a better sample still cannot prove an immune etiology. This is an example of the required explanatory structure, not a disease-specific claim to reuse without checking sources.
-
-### Figures and evidence in the article
-
-Teach how to read the visible figure: orient the reader to anatomy, labels, axes, colors and panels as relevant; explain the observation before its interpretation. Distinguish original authors' conclusion, the figure's limits, and application to this patient. A published example does not supply this patient's missing test results. Link important medical explanations to short source locators, retaining full APA in visible final references. Additional background required by the article may require additional source reading; do not fill it from unsupported recollection.
-
-### Convince through explanatory power
-
-Do not write “remember X” where an explanation is possible. Show why a rule follows from biology, measurement or evidence. Compare reasonable alternatives and identify what would make the current conclusion weaker. Use a simple counterfactual when useful: if the abnormality predated the drug, how would the attribution change, and why? Maintain calibrated uncertainty: an understandable causal story is not proof that the story occurred in this patient.
-
-### Preclinical reader acceptance check
-
-Read each note as a student unfamiliar with the subject. Can the student explain, in their own words, (a) the normal and abnormal process, (b) why this host changes the differential, (c) what the image/test actually shows, (d) why each result shifts the interpretation and what it cannot prove, and (e) why the next step follows? If an answer requires unstated clinical experience, add the missing explanation. Can the student apply the reasoning to a slightly changed case rather than repeat a memorized list? A high word count, many headings, or a recap alone does not pass this check.
+Read each note alongside its slide as if presenting: can the speaker find every essential cue with a quick glance, follow the speaking order, and state why the conclusion follows? Shorten repetition and peripheral detail; retain the causal link and any qualification essential to accuracy.
 
 ## Content QA
 
